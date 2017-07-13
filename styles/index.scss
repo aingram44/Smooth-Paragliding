@@ -1,0 +1,88 @@
+/**
+ * index.scss
+ */
+
+body {
+  background: #f5f5f5;
+  font-family: 'Open Sans', helvetica, sans-serif;
+  padding: 40px 0 0 0;
+  font-size: 1.4em;
+}
+
+.hero {
+  padding: 40px 0 0 0;
+}
+
+section {
+  padding: 85px 0 0 0;
+}
+
+.source {
+  color: #ccc;
+  a {
+    color: #ccc;
+  }
+}
+
+.banner {
+  margin: 40px 0 0 0;
+  padding: 145px;
+}
+
+.banner.text-less {
+  height: 325px;
+}
+
+.banner h2 {
+  display: inline;
+  background-color: rgba(255, 255, 255, 0.57);
+  box-shadow: 0.5em 0 0 rgba(255, 255, 255, 0.57),-0.5em 0 0 rgba(255, 255, 255, 0.57);
+  box-decoration-break: clone;
+  line-height: 48px;
+}
+
+.banner-1 {
+  // paraglider PV
+  background: url(http://i.imgur.com/1YIp0hO.jpg) no-repeat;
+  background-size: cover;
+}
+
+/* SASS example - written with SASS (.scss) */
+#pros-cons{
+  ul {
+    padding: 0 0 0 20px;
+  }
+}
+
+footer {
+  padding: 20px;
+}
+
+/* small */
+@media screen and (min-width: 540px) {
+  footer {
+    background: #ccc;
+  }
+}
+
+/* medium */
+@media screen and (min-width: 720px) {
+  footer {
+    background: none;
+  }
+}
+
+/* large */
+@media screen and (min-width: 960px) {
+  footer {
+    background: #ccc;
+  }
+}
+
+/* x-large */
+@media screen and (min-width: 1140px) {
+  footer {
+    background: rgba(83, 183, 181, 0.36);
+  }
+  header hr {border-top: 1px dashed orange;}
+}
